@@ -45,7 +45,7 @@ Now we will log back into DC-1 to install Active Directory Users & Computers. Pr
 <img src="https://user-images.githubusercontent.com/121250918/210021936-e56ec104-63d7-4455-94e0-279863a6b4f2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 </p>
-Perfect! Now we can start creating Organizational Units (OU). Let's first create an OU named __Employees. Create another OU named __Admins. In order to do that right click on the domain area. Select new-->Organizational Unit and fill out the field. Then click inside of your OU and right click, select new and select user and fill out the information for your new user. The user should be named John Doe, she is going to be an Admin so her username will be John_admin. Lastly add John to the domain admins security group. 
+Perfect! Now we can start creating Organizational Units (OU). Let's first create an OU named __Employees. Create another OU named __Admins. In order to do that right click on the domain area. Select new-->Organizational Unit and fill out the field. Then click inside of your OU and right click, select new-->user and fill out the information for your new user. The user should be named John Doe, he is going to be an Admin so her username will be John_admin. Lastly add John to the domain admins security group. 
 </p>
 <img src="https://user-images.githubusercontent.com/121250918/210021942-453eb69a-959e-47c0-9598-49601b97917c.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
@@ -60,7 +60,7 @@ From now on you can use John_admin as the administrator account. Now we will joi
 <p>
 </p>
 <p>
-We have to join Client-1 to the domain in order to do so navigate to your system settings and go to about. Off to the right select rename this pc (advanced). From there select to change the domain. Enter "TristanDomain.com" after that enter your credentials from TristanDomain.com\labuser. Your computer will restart and then client-1 will be a part of TristanDomain.com
+We have to join Client-1 to the domain in order to do so navigate to your system settings and go to about. Off to the right of system settings, select rename this pc (advanced). From there select to change the domain. Enter "TristanDomain.com" after that enter your credentials from TristanDomain.com\labuser. Your VM will restart and then client-1 will be a part of TristanDomain.com
 </p>
 <br />
 <p>
